@@ -32,11 +32,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 );
 
 const db = mysql.createPool({
-  host: '127.0.0.1', // Use localhost or 127.0.0.1 as the hostname
-  port: '3307',      // Specify the port number
-  user: 'root',
-  password: 'password',
-  database: 'loginsystem',
+  host: 'sql3.freemysqlhosting.net', // Use localhost or 127.0.0.1 as the hostname
+  port: '3306',      // Specify the port number
+  user: 'sql3686184',
+  password: 'ayUJQ1lLDe',
+  database: 'sql3686184',
 });
 
 
